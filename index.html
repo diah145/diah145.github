@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wave">
+            <img src="bg.png" alt="">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <img src="se.png" alt="">
+        </nav>
+
+        <div class="main-content">
+
+            <div class="image-pista">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="ft.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="bodylotion.webp" alt=""></div>
+                    </div> 
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>SCARLETT WHITENING</h1>
+                <p>Scarlett whitening body lotion berfungsi untuk mencerahkan dan melembabkan kulit, dengan kandungan Vit E dan Glutathione yg sudah terbukti dapat mencerahkan dan aman digunakan</p>
+                <button>Know More</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="gl_prev_ui.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Glutathione</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images (1)_prev_ui.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Vitamin E, Niacinamide</h3>
+                    <p>pelindung sel tubuh dari kerusakan.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images (2)_prev_ui (1).png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Kojic Acid</h3>
+                    <p>memutihkan kulit,melembabkan.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+</body>
+
+</html>
